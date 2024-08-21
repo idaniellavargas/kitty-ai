@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="es" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Kitty.AI</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+    </head>
+    <body>
+        <div class="interact">
+            <img src="cat.png" alt="Gato" class="cat-image">
+            <div class="buttons">
+                <button>Feed</button>
+                <button>Pet</button>
+                <button>Meow</button>
+            </div>
+        </div>
+        <div class="chatbot">
+            <ul class="chatbox">
+                <li class="chat incoming">
+                    <span class="material-symbols-outlined">Pets</span>
+                    <p>Hola, soy Michi, tu asistente virtual. ¿En qué puedo ayudarte?</p>
+                </li>
+                <li class="chat outgoing">
+                    <p> Hola Michi, ¿cómo estás?</p>
+                </li>
+            </ul>
+            <div class="chat-input">
+                <textarea placeholder="Escribe algo..." required></textarea>
+                <span id="send-btn" class="material-symbols-outlined">
+                    send
+                </span>
+            </div>
+        </div>
+    </body>
+</html>
